@@ -57,7 +57,7 @@ function App() {
 					</div>
 				</div>
         <div className='main-sec1 flex pt-10 flex-col items-center w-screen gap-20'>
-            <div id="about" className='about1 w-[95%] lg:w-[60%] h-150 lg:h-200 flex p-2 lg:p-10 lg:flex-row flex-col items-center'>
+            <div id="about" className='about1 w-[95%] lg:w-[60%] h-180 lg:h-200 flex p-2 lg:p-10 lg:flex-row flex-col items-center'>
               <div data-aos="fade-right" className='logo1 w-[80%] lg:w-[40%] h-90 lg:h-100 m-4'></div>
               <div className='rounded-2xl  about-info w-[70%] border border-white/90 bg-linear-to-r from-white-200/30 to-blue-200/20 drop-shadow-indigo-500/20 h-80 lg:h-110 '>
                 <div className='flex lg:m-10 m-2'>
