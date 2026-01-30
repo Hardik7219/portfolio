@@ -31,7 +31,7 @@ function App() {
   return (
     <>
       <header ref={headerRef1} className='min-h-10 sticky top-0 z-50'>
-        <div className='nav flex items-center gap-3 lg:gap-20   min-h-10 min-w-screen'>
+        <div className='nav flex items-center gap-3 lg:gap-20 text-sm lg:text-lg  min-h-10 min-w-screen'>
           <div className='bo min-h-10 w-2'></div>
           <a href="#home" className='hover:border-b-2 border-cyan-600'> <i className="fa-solid fa-house"></i> Home</a>
           <a href="#about" className='hover:border-b-2 border-cyan-600'><i className='fa-solid fa-user'></i> About</a>
