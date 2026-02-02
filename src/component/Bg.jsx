@@ -10,15 +10,17 @@ export default function Bg() {
     if (!vanta && window.innerWidth > 768) {
       setVanta(
         NET({
-          el: vantaRef.current,
-          THREE,
-          mouseControls: true,
-          touchControls: true,
-          gyroControls: false,
-          color: 0x005eff,
-          backgroundColor: 0x030b22,
-          maxDistance: 19,
-          spacing: 12,
+        el: vantaRef.current,
+        THREE,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x3fd1ff,
+        backgroundColor: 0x5000f
         })
       );
     }
