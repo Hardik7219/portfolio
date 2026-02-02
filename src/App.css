@@ -49,7 +49,9 @@ header{
 
 
 /*main-sec*/
-
+.main-sec1 {
+	background-color: var(--home-sec);
+}
 
 .about1, .skill1 , .projects1, .contact1{
   background: rgba(7, 34, 43, 0.35);
