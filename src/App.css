@@ -49,19 +49,15 @@ header{
 
 
 /*main-sec*/
-.main-sec1{
-	background-color: var(--home-sec);
-}
+
 
 .about1, .skill1 , .projects1, .contact1{
-	background-color: var(--home-sub-sec);
-	animation: load linear;
-	animation-timeline: view();
-	animation-range: entry 0% cover 30%;
-	border-bottom: 10px rgb(2, 12, 26) inset;
-	border-top: 10px rgb(142, 142, 248) inset;
-	border-right: 10px rgb(2, 12, 26) inset;
-	border-left: 10px rgb(142, 142, 248) inset;
+  background: rgba(7, 34, 43, 0.35);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.813);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
 }
 
 /*about section*/
