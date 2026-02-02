@@ -41,7 +41,7 @@ function App() {
           <div className='bo min-h-10 w-2 ml-auto'></div>
         </div>
       </header>
-      <div id="home" ref={homeRef2} className='home1 min-h-70 lg:h-screen'>		
+      <div id="home" ref={homeRef2} className='home1 min-h-70 lg:h-200'>		
 					<div className='msg' data-aos="fade-down-right">
 						<Typing
 						msg="HARDIK7219"
