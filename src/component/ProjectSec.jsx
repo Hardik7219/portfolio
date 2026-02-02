@@ -30,6 +30,15 @@ let  projects = [
             detail : 'A simple GUI-based To-Do Application built using Python and Tkinter.This project helps users manage daily tasks with file handling, keyboard shortcuts, and a scrollbar for better usability.',
             gitLink: 'https://github.com/Hardik7219/Tkinter_TO_DO_APP'
         },
+    ],
+    [
+        {
+            name:'Student Management System',
+            img : "https://github.com/user-attachments/assets/a283eb6b-85df-478e-b5ef-9317c9a1de3a" ,
+            alt:'Student Management System',
+            detail : 'A simple desktop application built using Python and CustomTkinter for managing student information. It allows users to add, edit, delete, search, and update student records, all stored in a JSON file. The app also supports dark/light theme switching.',
+            gitLink: 'https://github.com/Hardik7219/Student_managment_system'
+        },
     ]
 ]
 
