@@ -9,6 +9,8 @@ import 'aos/dist/aos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faGithub,faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import Bg from './component/Bg';
+
 
 AOS.init();
 function App() {
@@ -56,6 +58,7 @@ function App() {
 						/>
 					</div>
 				</div>
+        <Bg></Bg>
         <div className='main-sec1 flex pt-10 flex-col items-center w-screen gap-20'>
             <div id="about" className='about1 w-[95%] lg:w-[60%] h-180 lg:h-200 flex p-2 lg:p-10 lg:flex-row flex-col items-center'>
               <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" className='logo1 w-[80%] lg:w-[40%] h-90 lg:h-100 m-4'></div>
