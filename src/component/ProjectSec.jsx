@@ -39,6 +39,15 @@ let  projects = [
             detail : 'A simple desktop application built using Python and CustomTkinter for managing student information. It allows users to add, edit, delete, search, and update student records, all stored in a JSON file. The app also supports dark/light theme switching.',
             gitLink: 'https://github.com/Hardik7219/Student_managment_system'
         },
+    ],
+    [
+        {
+            name:'LibraTrack',
+            img : "s", 
+            alt:'LibraTrack',
+            detail : 'A command-line library management system written in C++. LibraTrack lets you manage books, users, and book transactions (issue/return) through an interactive menu.',
+            gitLink: 'https://github.com/Hardik7219/LibraTrack'
+        },
     ]
 ]
 
