@@ -1,4 +1,5 @@
 import './App.css'
+import './font.css'
 import { useEffect,useRef } from 'react';
 import Typing from './component/Typing';
 import SkillSec from './component/SkillSec';
@@ -10,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faEnvelope} from '@fortawesome/free-solid-svg-icons'
 import { faGithub,faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import Bg from './component/Bg';
-
+import CustomCursor from './component/CustomCursor';
 
 AOS.init();
 function App() {
@@ -24,22 +25,25 @@ function App() {
         headerRef1.current.classList.remove("bg-gray-900/60");
 			}
 
+
 		}
 		window.addEventListener("scroll", scrollHandler);
 		return () => {
 			window.removeEventListener("scroll", scrollHandler);
 		}
+    
 	},[]);
   return (
     <>
+    <CustomCursor />
       <header ref={headerRef1} className='min-h-10 sticky top-0 z-50'>
-        <div className='nav flex items-center gap-3 lg:gap-20 text-sm lg:text-lg  min-h-10 min-w-screen'>
+        <div className='nav dela-gothic-one-regular flex items-center gap-3 lg:gap-20 text-sm lg:text-lg  min-h-10 min-w-screen'>
           <div className='bo min-h-10 w-2'></div>
-          <a href="#home" className='hover:border-b-2 border-cyan-600'> <i className="fa-solid fa-house"></i> Home</a>
-          <a href="#about" className='hover:border-b-2 border-cyan-600'><i className='fa-solid fa-user'></i> About</a>
-          <a href="#skill" className='hover:border-b-2 border-cyan-600'><i className="fa-solid fa-code"></i> Skills</a>
-          <a href="#project" className='hover:border-b-2 border-cyan-600'><i className="fa-solid fa-microchip"></i> projects</a>
-          <a href="#contact" className='hover:border-b-2 border-cyan-600'><i className='fa-solid fa-envelope-circle-check'></i> Contact</a>
+          <a href="#home" className='hover:border-b-2 border-indigo-600'> <i className="fa-solid fa-house"></i> Home</a>
+          <a href="#about" className='hover:border-b-2 border-indigo-600'><i className='fa-solid fa-user'></i> About</a>
+          <a href="#skill" className='hover:border-b-2 border-indigo-600'><i className="fa-solid fa-code"></i> Skills</a>
+          <a href="#project" className='hover:border-b-2 border-indigo-600'><i className="fa-solid fa-microchip"></i> projects</a>
+          <a href="#contact" className='hover:border-b-2 border-indigo-600'><i className='fa-solid fa-envelope-circle-check'></i> Contact</a>
           <div className='bo min-h-10 w-2 ml-auto'></div>
         </div>
       </header>
@@ -62,7 +66,7 @@ function App() {
             <div id="about" className='about1 w-[95%] lg:w-[60%] h-180 lg:h-200 flex p-2 lg:p-10 lg:flex-row flex-col items-center'>
               <div data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300" className='logo1 w-[80%] lg:w-[40%] h-90 lg:h-100 m-4'></div>
               <div data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300" className='rounded-2xl  about-info w-[90%] lg:w-[60%] border border-white/90 bg-linear-to-r from-white-200/30 to-blue-200/20 drop-shadow-indigo-500/20 h-80 lg:h-110 '>
-                <div className='flex lg:m-10 m-2'>
+                <div className='flex black-ops-one-regular lg:m-10 m-2'>
                   <h1 className='text-purple-900 lg:text-2xl font-extrabold font-mono'>Hi i'am,</h1>
                   <p className='text-indigo-600 lg:text-2xl font-bold font-mono'>Parmar Hardik</p>
                 </div>
