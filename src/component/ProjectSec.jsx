@@ -69,7 +69,7 @@ const [current, setCurrent] = useState(0);
     return (
         <>
             <div className='w-90 lg:w-200 flex h-150 lg:h-120  justify-center gap-1 items-center '>
-                <button className='h-10 w-30 hover:cursor-pointer text-4xl font-bold text-white' onClick={next}><i className="fa-solid fa-angle-left"></i></button>
+                <button className='h-10 w-30   text-4xl font-bold text-white' onClick={next}><i className="fa-solid fa-angle-left"></i></button>
                 <AnimatePresence mode="wait">
                     <motion.div
                         key={current}
@@ -82,7 +82,7 @@ const [current, setCurrent] = useState(0);
                         <Project projects={projects[current]} />
                     </motion.div>
                 </AnimatePresence>
-                <button className='h-10 w-30 hover:cursor-pointer text-4xl font-bold text-white' onClick={prev}><i className="fa-solid fa-angle-right"></i></button>
+                <button className='h-10 w-30   text-4xl font-bold text-white' onClick={prev}><i className="fa-solid fa-angle-right"></i></button>
             </div>
         </>
     )
