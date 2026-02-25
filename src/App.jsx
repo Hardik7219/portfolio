@@ -70,7 +70,7 @@ function App() {
                   <h1 className='text-purple-900 lg:text-2xl font-extrabold font-mono'>Hi i'am,</h1>
                   <p className='text-indigo-600 lg:text-2xl font-bold font-mono'>Parmar Hardik</p>
                 </div>
-                <div className='lg:m-10 m-2 flex justify-center items-center hover:scale-101 hover:cursor-pointer bg-zinc-950/20 border border-indigo-600 p-1 rounded-2xl w-52 lg:w-80 h-10 lg:h-15'>
+                <div className='lg:m-10 m-2 flex justify-center items-center hover:scale-101   bg-zinc-950/20 border border-indigo-600 p-1 rounded-2xl w-52 lg:w-80 h-10 lg:h-15'>
                   <p className='font-mono font-extrabold text-sm lg:text-lg'>FULLSTACK WEB DEVELOPER</p>
                 </div>
                 <div className=' h-30 w-60 m-2 lg:m-10'>
@@ -78,7 +78,7 @@ function App() {
                 </div>
                 <div className='flex justify-end items-center m-1'>
                   <a href="/HARDIK PARMAR.pdf" download>
-                    <button className='bg-indigo-400/20 p-2 rounded-lg hover:scale-110 hover:cursor-pointer border font-mono border-white/50'>RESUME</button>
+                    <button className='bg-indigo-400/20 p-2 rounded-lg hover:scale-110   border font-mono border-white/50'>RESUME</button>
                   </a>
                 </div>
               </div>
